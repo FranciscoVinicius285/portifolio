@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-syne: "Syne", serif;
+    --font-montserrat:  "Montserrat", serif;
+
+    --txt-sm: 400 1.4rem var(--font-montserrat);
+    --txt-md: 500 1.5rem var(--font-montserrat);
+    --txt-lg: 700 2rem var(--font-montserrat);
+    --txt-xl: 700 2.5rem var(--font-syne);
+
+    --orange: #be7007;
+    --black: #0e0e0e;
+    --white: #ffffff;
+    --gray:#383838;
+    --back-card: #202020;
+
+}
+body{
+    background-color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+
