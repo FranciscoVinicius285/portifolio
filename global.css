@@ -1,0 +1,35 @@
+:root{
+    --font-title: "Syne", sans-serif;
+    --font-txt: "Montserrat", sans-serif;
+
+    --txt-xlg: 700 3.5rem var(--font-title);
+    --txt-lg: 700 3rem var(--font-title);
+    --txt-md: 700 2.5rem var(--font-title);
+    --txt-sm: 400 1.5rem var(--font-txt);
+    --txt-xsm: 400 1.2rem var(--font-txt);
+
+    --bg-page:#141325;
+    --color-font:#ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bg-page);
+    max-width: 1920px;
+    margin-inline: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+a{
+    text-decoration: none;
+}
