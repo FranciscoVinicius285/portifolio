@@ -215,7 +215,7 @@ section.projetos{
     & h3{
         color: var(--color-font);
         font: var(--txt-md);
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
     }
     & .down-button{
         margin-top: 5rem;
@@ -262,8 +262,8 @@ section.projetos{
             & .bg-img {
                 background-color: #aaa;
                 border-radius: 10%;
-                width: 600px;
-                height: 400px;
+                width: 650px;
+                height: 500px;
                 overflow: hidden;
                 position: relative;
               }
@@ -271,7 +271,14 @@ section.projetos{
               & .bg-img img {
                 position: absolute;
                 bottom: 0;
-                width: 111%;
+                width: 115%;
+              }
+              
+              /* img project cadaster */
+              & .cadaster img{
+                position: absolute;
+                bottom: 0;
+                width: 130%;
               }
 }
 
