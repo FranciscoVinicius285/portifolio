@@ -6,6 +6,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+    padding-bottom: 1rem;
     position: fixed;
     z-index: 1000;
     background-color: var(--bg-page);
